@@ -1,5 +1,7 @@
 // Foundation Coding Basics
 
+import java.util.ArrayList;
+
 public class Foundation {
     public static void main(String[] args) {
         System.out.println("Hello World!");
@@ -8,8 +10,8 @@ public class Foundation {
         String name = "Kai Saephan Villanueva";
         System.out.println("My name is... " + name);
 
-        /* Variables */
-        /* int age = 25;                        // integers 
+        /* Variables */ /* 
+        int age = 25;                        // integers 
         System.out.println("I am " + age + " years old. and I will be " + (age + 10) + " years old after 10 years.");
         float fee = 99.99f;                     // float (append with f to save space)
         final double PI = 3.1415926;            // final + double
@@ -17,8 +19,8 @@ public class Foundation {
         final int yearDOB = 2000;               // final (only for numbers)
         System.out.println("I was born in the year... " + yearDOB); */
 
-        /* Data Types */
-        /* byte humanLife = 100;
+        /* Data Types */ /* 
+        byte humanLife = 100;
         short tenThousands = 32000;
         int mostCommon = 20000000;
         long longBoi = 900000000000000L; // append with L
@@ -27,14 +29,18 @@ public class Foundation {
 
         System.out.println(humanLife + " " + tenThousands + " " + mostCommon + " " + longBoi + " " + saveSpace + " " + forgetEfficency); */
 
-        /* Booleans */
-        /* boolean heads = true;
+        /* Booleans */ /* 
+        boolean heads = true;
         boolean tails = false;
         System.out.println("Heads is " + heads + ". Tails is " + tails); */
 
-        /* Char */
-        /* char myGrade = 'B'; // single quotation
+        /* Char */ /*
+        char myGrade = 'B'; // single quotation
         System.out.println("My grade on the exam is a " + myGrade); */
+
+        /* Var */ /* (readability for code)
+        ArrayList<String> cars = new ArrayList<String>();
+        var cars2 = new ArrayList<String>(); */
     }
 
 
