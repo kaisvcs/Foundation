@@ -51,12 +51,16 @@ public class Foundation {
         double percentage = (double) userScore / maxScore * 100.0d;
         System.out.println(percentage); */
 
-        /* Operators */
-        //int x = 1 + 2 - 3 * 4 / 5 % 6;
-        //System.out.println(x);
+        /* Operators */ /* 
+        int x = 1 + 2 - 3 * 4 / 5 % 6;
+        System.out.println(x);
         int students = 67;
         int remainder = students % 12;
         System.out.println(remainder);
+        int x = 5;
+        System.out.println("++ before: "+ ++x);
+        int y = 5;
+        System.out.println("++ after: "+ y++); */
 
     }
 
