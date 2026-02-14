@@ -17,7 +17,7 @@ public class Foundation {
         final int yearDOB = 2000;               // final (only for numbers)
         System.out.println("I was born in the year... " + yearDOB); */
 
-        /* Primitive Data Types */
+        /* Data Types */
         /* byte humanLife = 100;
         short tenThousands = 32000;
         int mostCommon = 20000000;
@@ -26,6 +26,16 @@ public class Foundation {
         double forgetEfficency = 3.14159265358979311599796346854;
 
         System.out.println(humanLife + " " + tenThousands + " " + mostCommon + " " + longBoi + " " + saveSpace + " " + forgetEfficency); */
+
+        /* Booleans */
+        /* boolean heads = true;
+        boolean tails = false;
+        System.out.println("Heads is " + heads + ". Tails is " + tails); */
+
+        /* Char */
+        /* char myGrade = 'B'; // single quotation
+        System.out.println("My grade on the exam is a " + myGrade); */
     }
+
 
 }
