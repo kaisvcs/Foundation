@@ -41,6 +41,17 @@ public class Foundation {
         /* Var */ /* (readability for code)
         ArrayList<String> cars = new ArrayList<String>();
         var cars2 = new ArrayList<String>(); */
+
+        /* Type Casting */ /* 
+        double grade = 89.99;
+        int roundDown = (int) grade;
+        System.out.println(grade + " has been rounded down to " + roundDown);
+        int maxScore = 300;
+        int userScore = 268;
+        double percentage = (double) userScore / maxScore * 100.0d;
+        System.out.println(percentage); */
+
+        
     }
 
 
