@@ -74,13 +74,14 @@ public class Foundation {
         String conversation = greeting.concat("\n" + response);
         System.out.println(conversation); */
 
-        /* Java Math */
+        /* Java Math */ /* 
         int max = Math.max(6,7);
         System.out.println(max);
         int sqroot = (int)Math.sqrt(144);
         System.out.println(sqroot);
         double abso = Math.abs(-2.5);
         System.out.println(abso);
+        double powerOf = Math.pow(2,3); */
     }
 
 
