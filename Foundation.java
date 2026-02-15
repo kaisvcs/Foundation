@@ -62,10 +62,25 @@ public class Foundation {
         int y = 5;
         System.out.println("++ after: "+ y++); */
 
-        /* Strings */
-        String greeting = "Hello";
+        /* Strings */ /* 
+        String greeting = "Hello there Kai";
+        String response = "Hello there Computer...";
         System.out.println(greeting.length());
+        System.out.println(greeting.toUpperCase());
+        System.out.println(greeting.toLowerCase());
+        System.out.println(greeting.indexOf("Kai"));
+        System.out.println(greeting.indexOf("Kai"));
+        System.out.println(greeting.concat("\n" + response));
+        String conversation = greeting.concat("\n" + response);
+        System.out.println(conversation); */
 
+        /* Java Math */
+        int max = Math.max(6,7);
+        System.out.println(max);
+        int sqroot = (int)Math.sqrt(144);
+        System.out.println(sqroot);
+        double abso = Math.abs(-2.5);
+        System.out.println(abso);
     }
 
 
