@@ -62,6 +62,10 @@ public class Foundation {
         int y = 5;
         System.out.println("++ after: "+ y++); */
 
+        /* Strings */
+        String greeting = "Hello";
+        System.out.println(greeting.length());
+
     }
 
 
